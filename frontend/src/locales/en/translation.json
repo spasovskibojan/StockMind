@@ -1,0 +1,241 @@
+{
+  "navbar": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "sales": "Sales",
+    "suppliers": "Suppliers",
+    "assistant": "VI Assistant",
+    "login": "Login",
+    "register": "Register",
+    "language": "Language",
+    "language_desc": "Choose your preferred language.",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "footer": {
+    "home": "Home",
+    "signin": "Sign in",
+    "create_account": "Create account",
+    "copyright": "StockMind. VI-powered store management."
+  },
+  "landing": {
+    "feat1_title": "Smart Inventory",
+    "feat1_text": "Track products, stock levels, suppliers — with low-stock alerts.",
+    "feat2_title": "VI Insights",
+    "feat2_text": "Daily VI-generated summaries of your business performance.",
+    "feat3_title": "Restock Predictions",
+    "feat3_text": "VI tells you what to reorder based on sales velocity.",
+    "feat4_title": "Chat Assistant",
+    "feat4_text": "Ask anything about your store in plain English.",
+    "subtitle": "VI-powered store management for small businesses.",
+    "signin": "Sign in",
+    "create_account": "Create account"
+  },
+  "auth": {
+    "signin": "Sign in",
+    "username": "Username",
+    "password": "Password",
+    "signing_in": "Signing in...",
+    "no_account": "No account?",
+    "register": "Register",
+    "create_account": "Create your account",
+    "email": "Email",
+    "password_hint": "At least 8 characters, not all numeric.",
+    "confirm_password": "Confirm password",
+    "creating": "Creating...",
+    "already_have_account": "Already have an account?",
+    "invalid_login": "Invalid username or password.",
+    "welcome_back": "Welcome back!",
+    "account_created": "Account created!",
+    "registration_failed": "Registration failed."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome_back": "Welcome back,",
+    "generate_restock": "✨ Generate restock plan",
+    "todays_revenue": "Today's revenue",
+    "sales": "sales",
+    "sales_today": "Sales today",
+    "transactions": "transactions",
+    "low_stock": "Low stock",
+    "items_below_threshold": "items below threshold",
+    "top_product_7d": "Top product (7d)",
+    "units_sold": "units sold",
+    "no_sales_yet": "no sales yet",
+    "low_stock_alerts": "Low stock alerts",
+    "everything_stocked": "Everything looks stocked. ✓",
+    "revenue_last_7d": "Revenue — last 7 days",
+    "no_sales_last_7d": "No sales in the last 7 days yet."
+  },
+  "products": {
+    "title": "Products",
+    "add_product": "+ Add Product",
+    "search_placeholder": "Search products...",
+    "name": "Name",
+    "sku": "SKU",
+    "price": "Price",
+    "stock": "Stock",
+    "threshold": "Threshold",
+    "supplier": "Supplier",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "sales": {
+    "title": "Sales",
+    "new_sale": "+ New Sale",
+    "date": "Date",
+    "total": "Total",
+    "items": "Items",
+    "actions": "Actions",
+    "view": "View",
+    "delete": "Delete",
+    "product": "Product",
+    "qty": "Qty",
+    "unit_price": "Unit price",
+    "customer": "Customer",
+    "from_date": "From date",
+    "to_date": "To date",
+    "clear_filters": "Clear filters",
+    "no_sales_yet": "No sales yet. Click '+ New Sale' to record one.",
+    "showing": "Showing",
+    "of": "of"
+  },
+  "suppliers": {
+    "title": "Suppliers",
+    "new_supplier": "+ New Supplier",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "actions": "Actions",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "no_suppliers_yet": "No suppliers yet. Click '+ New Supplier' to add one.",
+    "search_placeholder": "Search suppliers..."
+  },
+  "assistant": {
+    "title": "VI Assistant",
+    "subtitle": "Ask me anything about your inventory, sales, or suppliers.",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "you": "You",
+    "ai": "VI"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile Settings",
+    "username": "Username",
+    "email": "Email",
+    "save_changes": "Save Changes"
+  },
+  "supplier_detail": {
+    "back_to_suppliers": "← Back to suppliers",
+    "contact_info": "Contact info",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "notes": "Notes",
+    "no_notes": "No notes provided.",
+    "products_supplied": "Products supplied",
+    "no_products": "This supplier has no products linked yet."
+  },
+  "components": {
+    "pagination": {
+      "rows_per_page": "Rows per page:",
+      "total": "total"
+    },
+    "modals": {
+      "cancel": "Cancel",
+      "save": "Save",
+      "saving": "Saving...",
+      "add": "Add",
+      "adding": "Adding...",
+      "category_quick_add": {
+        "title": "New Category",
+        "label": "Category name",
+        "placeholder": "e.g. Clothing, Electronics, Books..."
+      },
+      "restock": {
+        "title": "Generate Restock Plan",
+        "days": "Days to cover",
+        "btn": "Generate",
+        "generating": "Generating...",
+        "analyzing": "Analyzing sales velocity and stock levels...",
+        "error": "Could not load recommendations. Try again.",
+        "no_need": "No restock needed right now. ✓",
+        "urgency": "Urgency",
+        "reason": "Reason",
+        "qty": "Qty to order",
+        "regenerate": "Regenerate"
+      },
+      "sale": {
+        "title": "New Sale",
+        "product": "Product",
+        "qty": "Quantity",
+        "customer": "Customer name (optional)"
+      },
+      "supplier": {
+        "title_new": "New Supplier",
+        "title_edit": "Edit Supplier",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address",
+        "notes": "Notes"
+      },
+      "product": {
+        "title_new": "New Product",
+        "title_edit": "Edit Product",
+        "name": "Name",
+        "sku": "SKU",
+        "category": "Category",
+        "select_category": "-- Select Category --",
+        "new_category": "+ New Category",
+        "supplier": "Supplier",
+        "select_supplier": "-- Select Supplier --",
+        "new_supplier": "+ New Supplier",
+        "cost": "Cost Price",
+        "price": "Selling Price",
+        "stock": "Current Stock",
+        "low_stock_threshold": "Low Stock Threshold",
+        "description": "Description",
+        "image": "Product Image"
+      }
+    },
+    "daily_insight": {
+      "title": "AI Daily Insights",
+      "regenerate": "Regenerate",
+      "generating": "Generating insights...",
+      "error": "Could not load insights. Please try again.",
+      "no_insights": "No insights yet."
+    }
+  },
+  "product_modal": {
+    "edit_title": "Edit Product",
+    "new_title": "New Product",
+    "description": "Description",
+    "enter_name_first": "Enter a product name first",
+    "desc_generated": "Description generated",
+    "desc_failed": "Failed to generate description",
+    "generating": "Generating...",
+    "generate_ai": "Generate with AI",
+    "category": "Category",
+    "new": "New",
+    "select_category": "- Select category -",
+    "supplier_optional": "Supplier (optional)",
+    "no_supplier": "- No supplier -",
+    "cost": "Cost",
+    "low_stock_alert": "Low-stock alert",
+    "image_optional": "Product image (optional)",
+    "updated": "Product updated",
+    "created": "Product created",
+    "save_failed": "Failed to save product"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "update": "Update",
+    "create": "Create"
+  }
+}

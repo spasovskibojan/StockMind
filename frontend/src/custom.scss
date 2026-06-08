@@ -1,0 +1,15 @@
+// Custom Bootstrap variables
+$primary: #4a90e2;      // Soft nice blue
+$secondary: #7f8c8d;    // Soft gray
+$success: #2ecc71;      // Vibrant green
+$info: #74b9ff;         // Light pastel blue
+$warning: #fffb98;      // User requested pale yellow
+$danger: #e74c3c;       // Soft red
+$dark: #496793;         // User requested rgb(73, 103, 147)
+$light: #f8f9fa;        // Standard light, user wanted white to remain the same
+
+// To ensure good contrast for the warning color:
+$color-contrast-dark: #212529;
+$color-contrast-light: #ffffff;
+
+@import "bootstrap/scss/bootstrap";
